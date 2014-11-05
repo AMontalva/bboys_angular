@@ -1,0 +1,72 @@
+body {
+	width: 96%;
+	background-color: #FFFFFF;
+	background-image: linear-gradient(90deg, transparent 50%, rgba(101, 123, 182,.2) 50%);
+	background-size: 50px 50px;
+}
+
+#searchBox {
+  background: rgba(37, 84, 105,.8);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+#searchBox h1 {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+input[ng-model=query] { 
+	margin-bottom: 20px;
+}
+
+#order {
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;	
+	color: #FFFFFF;
+}
+
+
+#wrap {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+li {
+	list-style: none;
+  	background: rgba(37, 84, 105,.8);
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 100%;
+	color: #FFFFFF;
+  	border-radius: 20px;
+
+}
+
+.album {
+	clear: both;
+}
+
+.album__info {
+	width: 40%;
+	float: left;
+	padding-left: 20px;
+}
+
+.album__img img {
+	width: 30%;
+	float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

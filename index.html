@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>The Beach Boys Angular Project</title>
+  <script src="lib/angular/angular.min.js"></script>
+  <script src="js/controllers.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="wrap">
+    <div ng-controller = "MyController">
+      <!-- start form elements -->
+      <div id="searchBox">
+        <h1>The Beach Boys Discography</h1>
+        <div id="order">
+                <input ng-model="query" placeholder="Search" autofocus> 
+
+          <select ng-model="albumOrder">
+            <option value="title">Title</option>
+            <option value="year">Year</option>
+            <option value="label">Label</option>
+            <option value="format">Format</option>
+            <option value="certification">Certification</option>
+          </select>
+            <div class="radioGroup">
+            <input type="radio" ng-model="asc_desc" name="asc_desc" checked>
+            Ascending            
+            </div>
+            <div class="radioGroup">          
+            <input type="radio" ng-model="asc_desc" name="asc_desc" value="reverse">
+            Descending     
+            </div>
+     
+        </div>
+
+      </div>
+
+      <!-- start list of albums -->
+      <ul class="artistlist">
+        <li ng-repeat="item in albums | filter: query | orderBy: albumOrder:asc_desc">
+          <div class="album">
+            <div class="album__info">
+              <h2>{{item.title}}</h2>            
+              <p>Year: {{item.year}}</p>
+              <p>Label: {{item.label}}</p>
+              <p>Format: {{item.format}}</p>
+              <p>Certification: {{item.certification}}</p>
+            </div>
+            <div class="album__img">
+              <img ng-src="images/{{item.image}}.jpg">
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

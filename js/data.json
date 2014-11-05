@@ -1,0 +1,263 @@
+[
+  {
+    "id":"1",
+    "year": "1962",
+    "title": "Surfin' Safari",
+    "label": "Capitol",
+    "format": "LP",
+    "certification": "-",
+    "image": "surfinSafari"
+  },
+  {
+      "id": "2",
+      "year": "1963",
+      "title": "Surfin' U.S.A.",
+      "label": "Capitol",
+      "format": "LP",
+      "certification": "U.S. Gold",
+      "image": "surfinUSA"
+   },
+  {
+      "id": "3",
+      "year": "1963",
+      "title": "Surfer Girl",
+      "label": "Capitol",
+      "format": "LP",
+      "certification": "U.S. Gold",
+      "image": "surferGirl"
+   }, 
+  {
+      "id": "4",
+      "year": "1963",
+      "title": "Little Deuce Coupe",
+      "label": "Capitol",
+      "format": "LP",
+      "certification": "U.S. Platinum",
+      "image": "littleDeuceCoupe"
+   },
+  {
+      "id": "5",
+      "year": "1964",
+      "title": "Shut Down Volume 2",
+      "label": "Capitol",
+      "format": "LP",
+      "certification": "U.S. Gold",
+      "image": "shutDownVolume2"
+   },
+  {
+      "id": "6",
+      "year": "1964",
+      "title": "All Summer Long",
+      "label": "Capitol",
+      "format": "LP",
+      "certification": "U.S. Gold",
+      "image": "allSummerLong"
+   },
+  {
+      "id": "7",
+      "year": "1964",
+      "title": "The Beach Boys' Christmas Album",
+      "label": "Capitol",
+      "format": "LP",
+      "certification": "U.S. Gold",
+      "image": "christmasAlbum"
+   },  
+  {
+      "id": "8",
+      "year": "1965",
+      "title": "Today!",
+      "label": "Capitol",
+      "format": "LP",
+      "certification": "U.S. Gold",
+      "image": "today"
+   },
+  {
+      "id": "9",
+      "year": "1965",
+      "title": "Summer Days (And Summer Nights!!)",
+      "label": "Capitol",
+      "format": "LP",
+      "certification": "U.S. Gold",
+      "image": "sumerDaysSummerNights"
+   },
+  {
+      "id": "10",
+      "year": "1965",
+      "title": "Beach Boys' Party!",
+      "label": "Capitol",
+      "format": "LP",
+      "certification": "-",
+      "image": "party"
+   },
+  {
+      "id": "11",
+      "year": "1966",
+      "title": "Pet Sounds",
+      "label": "Capitol",
+      "format": "LP",
+      "certification": "U.S. Platinum",
+      "image": "petSounds"
+   }, 
+  {
+      "id": "12",
+      "year": "1967",
+      "title": "Smiley Smile",
+      "label": "Brother",
+      "format": "LP",
+      "certification": "-",
+      "image": "smileySmile"
+   },
+  {
+      "id": "13",
+      "year": "1967",
+      "title": "Wild Honey",
+      "label": "Capitol",
+      "format": "LP",
+      "certification": "-",
+      "image": "wildHoney"
+   },
+  {
+      "id": "14",
+      "year": "1968",
+      "title": "Friends",
+      "label": "Capitol",
+      "format": "LP",
+      "certification": "-",
+      "image": "friends"
+   },
+  {
+      "id": "15",
+      "year": "1969",
+      "title": "20/20",
+      "label": "Capitol",
+      "format": "LP",
+      "certification": "-",
+      "image": "2020"
+   },
+  {
+      "id": "16",
+      "year": "1970",
+      "title": "Sunflower",
+      "label": "Brother, Reprise",
+      "format": "LP",
+      "certification": "-",
+      "image": "sunflower"
+   },  
+  {
+      "id": "17",
+      "year": "1971",
+      "title": "Surf's Up",
+      "label": "Brother, Reprise",
+      "format": "LP",
+      "certification": "-",
+      "image": "surfsUp"
+   },
+  {
+      "id": "18",
+      "year": "1972",
+      "title": "Carl and the Passions - 'So Tough'",
+      "label": "Brother, Reprise",
+      "format": "2xLP",
+      "certification": "-",
+      "image": "soTough"
+   },
+  {
+      "id": "19",
+      "year": "1973",
+      "title": "Holland",
+      "label": "Brother, Reprise",
+      "format": "LP",
+      "certification": "U.K. Silver",
+      "image": "holland"
+   },
+  {
+      "id": "20",
+      "year": "1976",
+      "title": "15 Big Ones",
+      "label": "Brother, Reprise",
+      "format": "LP",
+      "certification": "U.S. Gold, U.K. Silver",
+      "image": "15bigOnes"
+   }, 
+  {
+      "id": "21",
+      "year": "1977",
+      "title": "Love You",
+      "label": "Brother, Reprise",
+      "format": "LP",
+      "certification": "-",
+      "image": "loveYou"
+   },     
+  {
+      "id": "22",
+      "year": "1978",
+      "title": "miuAlbum",
+      "label": "Brother, Reprise",
+      "format": "LP",
+      "certification": "-",
+      "image": "miuAlbum"
+   },                  
+  {
+      "id": "23",
+      "year": "1979",
+      "title": "L.A. (Light Album)",
+      "label": "Caribou",
+      "format": "LP",
+      "certification": "-",
+      "image": "la"
+   },            
+  {
+      "id": "24",
+      "year": "1980",
+      "title": "Keepin' the Summer Alive",
+      "label": "Brother, Reprise",
+      "format": "LP",
+      "certification": "-",
+      "image": "summerAlive"
+   },
+  {
+      "id": "25",
+      "year": "1985",
+      "title": "The Beach Boys",
+      "label": "Caribou",
+      "format": "LP, CD",
+      "certification": "-",
+      "image": "theBeachBoys"
+   }, 
+  {
+      "id": "26",
+      "year": "1989",
+      "title": "Still Cruisin'",
+      "label": "Capitol",
+      "format": "LP, CD",
+      "certification": "U.S. Platinum, AUT Gold",
+      "image": "stillCruisin"
+   },  
+  {
+      "id": "27",
+      "year": "1992",
+      "title": "Summer in Paradise",
+      "label": "Brother",
+      "format": "CD",
+      "certification": "-",
+      "image": "summerInParadise"
+   }, 
+  {
+      "id": "28",
+      "year": "1996",
+      "title": "Stars and Stripes Vol. 1",
+      "label": "River North",
+      "format": "CD",
+      "certification": "-",
+      "image": "starsStripesV1"
+   },   
+  {
+      "id": "29",
+      "year": "2012",
+      "title": "That's Why God Made the Radio",
+      "label": "Capitol",
+      "format": "LP, CD, DD",
+      "certification": "-",
+      "image": "godMadeRadio"
+   }                                               
+]
