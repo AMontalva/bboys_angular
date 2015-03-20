@@ -40,6 +40,10 @@
       <ul class="artistlist">
         <li ng-repeat="item in albums | filter: query | orderBy: albumOrder:asc_desc">
           <div class="album">
+
+            <div class="album__img">
+              <img ng-src="images/{{item.image}}.jpg">
+            </div>
             <div class="album__info">
               <h2>{{item.title}}</h2>            
               <p>Year: {{item.year}}</p>
@@ -47,9 +51,7 @@
               <p>Format: {{item.format}}</p>
               <p>Certification: {{item.certification}}</p>
             </div>
-            <div class="album__img">
-              <img ng-src="images/{{item.image}}.jpg">
-            </div>
+
           </div>
         </li>
       </ul>

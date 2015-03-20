@@ -6,15 +6,16 @@ body {
 }
 
 #searchBox {
-  background: rgba(37, 84, 105,.8);
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  border-radius: 20px;
-  padding: 20px 30px;
+	  background: rgba(37, 84, 105,.8);
+	  width: 600px;
+	  margin-left: auto;
+	  margin-right: auto;
+	  display: block;
+	  margin-top: 20px;
+	  margin-bottom: 10px;
+	  border-radius: 20px;
+	  padding-bottom: 20px;
+	  padding-top: 1px;
 }
 
 #searchBox h1 {
@@ -23,7 +24,7 @@ body {
 }
 
 input[ng-model=query] { 
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 #order {
@@ -36,10 +37,15 @@ input[ng-model=query] {
 
 
 #wrap {
-	width: 70%;
+	width: 600px;
+	/*margin-left: 80px;*/
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+
+ul {
+	margin-left: -40px;
 }
 
 li {
@@ -47,7 +53,7 @@ li {
   	background: rgba(37, 84, 105,.8);
 	margin-bottom: 20px;
 	display: inline-block;
-	width: 100%;
+	width: 600px;
 	color: #FFFFFF;
   	border-radius: 20px;
 
@@ -58,15 +64,20 @@ li {
 }
 
 .album__info {
-	width: 40%;
+	width: 70%;
 	float: left;
 	padding-left: 20px;
+	margin-top: 6px;
+}
+
+.album__info {
+	line-height: 8px;
 }
 
 .album__img img {
-	width: 30%;
-	float: right;
-	padding-right: 20px;
+	width: 20%;
+	float: left;
+	padding-left: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
